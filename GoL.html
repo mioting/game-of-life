@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- p5.js -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+        crossorigin="anonymous">
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- my css -->
+    <link rel="stylesheet" href="./GoL.css"/>
+    <title>G o L</title>
+</head>
+<body>
+    <div id="gameBoardContainer">
+        <div id='canvas' class="canvasScrollbar"></div>
+        <div class="rightBox">
+            <div class="rules">
+                <div class="alive"><span>Alive</span>
+                    <button class="aliveBox">0</button>
+                    <button class="aliveBox">1</button>
+                    <button class="aliveBox">2</button>
+                    <button class="aliveBox">3</button>
+                    <button class="aliveBox">4</button>
+                    <button class="aliveBox">5</button>
+                    <button class="aliveBox">6</button>
+                    <button class="aliveBox">7</button>
+                    <button class="aliveBox">8</button>
+                </div>
+                <div class="dead"><span>Dead</span>
+                    <button class="deadBox">0</button>
+                    <button class="deadBox">1</button>
+                    <button class="deadBox">2</button>
+                    <button class="deadBox">3</button>
+                    <button class="deadBox">4</button>
+                    <button class="deadBox">5</button>
+                    <button class="deadBox">6</button>
+                    <button class="deadBox">7</button>
+                    <button class="deadBox">8</button>
+                </div>
+            </div>
+            <audio src="./shooting star.mp3" controls></audio>
+        </div>
+    </div>
+<div>    
+    <div class="controls">
+        <button class="button start">Start</button>
+        <button class="button pause">Pause</button>
+        <button class="button clear">Clear</button>
+        <button class="button random">Random</button>
+        <div class="frameRateSlideContainer">
+            <div>
+                <label for="speed">Speed</label>
+                <input type="range" id="speed-slider" name="speed"
+                       min="1" max="30" value="5">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/p5.js" integrity="sha512-+tu0+vUXyZX+S51npa//IN6znNTLZsBoy8mXn9WzHxfBqYMy6gOzzfTK0VqZf9O171RY9AJviHDokCnvEq8+1A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./GoL.js"></script>
+</html>

@@ -1,0 +1,74 @@
+.carousel-item {
+    position: relative;
+}
+.carousel-caption {
+    position: absolute;
+    bottom: 300px;
+}
+/* .carousel-indicators {
+    position: absolute;
+    bottom: 400px;
+} */
+/* .carousel-control-prev-icon {
+    background-color: black;
+}
+.carousel-control-next-icon {
+    color: black;
+} */
+
+body {
+    background-color: black;
+}
+
+span {
+    text-decoration: line-through;
+}
+
+h5 {
+    font-size: 35px;
+}
+p {
+    font-size: 25px;
+}
+
+.topBox {
+    border-top: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    border-bottom: 0px;
+    border-radius: 10px,10px,0px,0px;
+    border-style: double;
+    border-color: rgb(190,56,157);
+    display: flex;
+    justify-content: center;
+    background-color: rgba(190,56,157, 0.1);
+    font-size: 80px;
+}
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(190,56,157);
+    font-size: 82px;
+}
+
+
+#introContainer {
+    border-top: 0ch;
+    border-left: 10px;
+    border-right: 10px;
+    border-bottom: 10px;
+    border-radius: 0px,0px,10px,10px;
+    /* border: solid 10px; */
+    border-style: double;
+    border-color: rgb(190,56,157);
+    padding-bottom: 100px;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: rgb(102, 102, 102);
+}
